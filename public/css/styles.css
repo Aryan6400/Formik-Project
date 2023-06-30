@@ -1,0 +1,50 @@
+html {
+    background-color: #E4E9FD;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"), -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    width: 42%;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-div {
+    margin-top: 5px;
+    grid-area: 6/2/7/3;
+}
+
+#submit-btn {
+    color: white;
+    background-color: #5b1eb7;
+    box-shadow: 0 0 3px #542f8c;
+}
+
+.radio-btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio {
+    margin: 0 5px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.input {
+    width: 100%;
+}
